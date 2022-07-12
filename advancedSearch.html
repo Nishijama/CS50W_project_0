@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <nav>
+                <span id="logo">N<span>oo</span>dle <span style="font-weight: 100;">Advanced Search</span></span>
+                <a href="index.html">Search</a>
+            </nav>
+        </div>
+        <div class="mainContainer">
+            <div class="advancedFormContainer">
+                <form action="https://www.google.com/search">
+                    <legend>Find pages with ...</legend>
+                    <section class="row">
+                        <label for="advancd1">all these words:</label>
+                        <input class="advancedInput" id='advanced1' type="text" name="as_q">
+                    </section>
+                    <section class="row">
+                        <label for="advancd2">this exact word or phrase:</label>
+                        <input class="advancedInput" id='advanced2' type="text" name="as_epq">
+                    </section>
+                    <section class="row">
+                        <label for="advancd3">any of these words:</label>
+                        <input class="advancedInput" id='advanced3' type="text" name="as_oq">
+                    </section>
+                    <section class="row">
+                        <label for="advancd4">none of these words:</label>
+                        <input class="advancedInput" id='advanced4' type="text" name="as_eq">
+                    </section>
+
+                    <div class="search_buttons_coontainer" style="text-align: right;">
+                        <input class="btn" id="advanced_search_button" type="submit" value="Advanced Search">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
